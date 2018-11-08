@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyPb">
+        <attr name="circle_color" format="color" />
+        <attr name="circle_radius" format="dimension" /><!-- 尺寸 -->
+        <attr name="circle_x" format="dimension" />
+        <attr name="circle_y" format="dimension" />
+    </declare-styleable>
+</resources>

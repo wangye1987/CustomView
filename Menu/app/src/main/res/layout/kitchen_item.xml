@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/shape"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_id"
+        android:src="@drawable/image_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@+id/image_id"
+        android:gravity="bottom"
+        android:layout_marginTop="-13dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <menu.aprivate.com.kitchenmenu.CricleImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image_head"
+        android:src="@drawable/image_4"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/image_title"
+        android:text="最近"
+        android:layout_marginLeft="10dp"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>
